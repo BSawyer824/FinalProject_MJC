@@ -1,0 +1,20 @@
+needs:
+
+CREATE TABLE `needs` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `needtype` varchar(50) DEFAULT NULL,
+  `needsubtype` varchar(50) DEFAULT NULL,
+  `deadline` varchar(50) DEFAULT NULL,
+  `starttime` varchar(50) DEFAULT NULL,
+  `numhours` varchar(50) DEFAULT NULL,
+  `description` varchar(250) DEFAULT NULL,
+  `status` varchar(50) DEFAULT NULL,
+  `contact_firstname` varchar(100) DEFAULT NULL,
+  `contact_lastname` varchar(100) DEFAULT NULL,
+  `phone` varchar(20) DEFAULT NULL,
+  `email` varchar(100) DEFAULT NULL,
+  `organization_name` varchar(50) DEFAULT NULL,
+  `goodsqty` int(11) DEFAULT NULL,
+  `volunteercount` int(11) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+)

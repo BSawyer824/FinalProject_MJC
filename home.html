@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Cup-of-Sugar</title>
+    <link href='stylesheet1.css' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
+    <script type="text/javascript">
+        // show sign-in or sign-up form
+        function selectDiv (divID1, divID2) {
+            var showDiv = document.getElementById(divID1);
+            var hideDiv = document.getElementById(divID2);
+            
+            if(showDiv.style.display == 'none') {
+                showDiv.style.display = 'block';
+                hideDiv.style.display = 'none';
+            }
+            else
+                showDiv.style.display = 'none';
+        }
+    </script>
+</head>
+<body background="cup-hand-mug-potatoes.jpg" style="background-size:100% auto;">
+    <div id="navBar">
+        <ul>
+            <a href='http://www.codex209.com/~prodapp/home.html'>
+                <li style="padding-right: 40px;"><img src="cupOfSugarLogo1.jpg" /></li>
+            </a>
+            <li><a href="http://www.codex209.com/~prodapp/source/give.php">Give to Organizations</a></li>
+            <li><a href="http://www.codex209.com/~prodapp/source/login.php">Organization Log-in/Sign-Up</a></li>
+        </ul>
+    </div>
+    <div class="content" style="padding-top: 200px;">
+        <center><a href="http://www.codex209.com/~prodapp/js/give.php#"><button>Give some sugar</button></a></center>
+    </div>
+    <div class="content" style="padding-bottom: 150px;">
+        <center><a href="http://www.codex209.com/~prodapp/source/login.php"><button>Get some sugar</button></a></center>
+    </div>
+    <div class="content" style="background-color: #f2f2f2">
+        <h3>About Cup-of-Sugar</h3>
+        <h6>People of all ages often seek out opportunities to support their local communities.  On the flip side, non-profit organizations exist in nearly every town that contribute to community well-being, yet they lack resources to provide their services.
+        <br /><br />Cup-of-Sugar intends to help facilitate the coalescing of volunteer "supply" and organizations' need for volunteer service and donations.  This site allows non-profit organizations to list needs for both goods and services.  Users can then browse through these needs in order to determine how they can lend some support.
+        <br /><br />Whether you represent a charitable institution that needs a little "sugar" or you're just looking to lend a helping hand, let Cup-of-Sugar aid your journey to bettering your local community.
+        <br /><br />&#9825;</h6>
+    </div>
+</body>
+</html>

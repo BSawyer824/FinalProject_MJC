@@ -1,0 +1,201 @@
+@charset "utf-8"
+    
+body {
+    margin: 0px;
+    padding: 0px;
+    font-size: 15px;
+    font-family: "Arial";
+    color: #000000;
+}
+#navBar {
+    font-family: 'Quicksand', sans-serif;
+    height: 50px;
+    background-color: #ffffff;
+    margin: 0px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding-top: 10px;
+    padding-left: 40px;
+    width: 100%;
+    border-bottom-style: inset;
+    border-color: azure;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li {
+    float: left;
+}
+li img {
+    height: 45px;
+    width: auto;
+    padding-top: 0px;
+}
+li a {
+    display: inline-block;
+    color: #ff7f50;
+    text-align: center;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+}
+li a:hover {
+    color: #ffb499;
+}
+.line {
+    height: 1px;
+    border-bottom: 1px solid #e6e6e6;
+    margin: 10px 200px 10px 200px;
+}
+
+.content {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin: auto;
+    font-size: 15px;
+    font-family: "Arial";
+    color: #000000;
+}
+h3 {
+    color: #ff7f50;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+}
+h6 {
+    color: #009799;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    width: 100%;
+}
+button {
+    font-size: 20px;
+    width: 200px;
+    background-color: #ff7f50;
+    color: white;
+    padding: 10px 20px;
+    margin: 0 auto;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+}
+button:hover {
+    background-color: #ffb499;
+}
+.boxContent button {
+    color: #000000;
+    font-size: 15px;
+    width: 100px;
+    padding: 10px 20px;
+    margin: 10px 10px 10px 0px;
+    border: 1px solid #a6a6a6;
+    border-radius: 5px;
+    text-align: center;
+    display: inline-block;
+    float: left;
+    background-color: #ffffff;
+}
+input[type=text], select {
+    color: #000000;
+    width: 100%;
+    padding: 10px 20px;
+    margin: 10px 0;
+    display: inline-block;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+input[type=number], select {
+    color: #000000;
+    width: 100%;
+    padding: 10px 20px;
+    margin: 10px 0;
+    display: inline-block;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type=date], select {
+    color: #000000;
+    width: 100%;
+    padding: 10px 20px;
+    margin: 10px 0;
+    display: inline-block;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+input[type=password], select {
+    color: #000000;
+    width: 100%;
+    padding: 10px 20px;
+    margin: 10px 0;
+    display: inline-block;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+input[type=submit] {
+    color: #000000;
+    width: 100px;
+    background-color: #ff7f50;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+}
+input[type=submit]:hover {
+    background-color: #ffb499;
+    text-align: center;
+}
+.floatingBox {
+    font-size: 15px;
+    font-family: "Arial";
+    color: #000000;
+    padding-top: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    float: left;
+    display: inline-block;
+    width: 33%;
+    height: 800px;
+    background-color: #e5ffff;
+}
+.afterBox {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 60px;
+    display: inline-block;
+}
+.boxContent {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    font-family: "Arial";
+    color: #000000;
+}
+#login {
+    font-family: 'Quicksand', sans-serif;
+    height: 50px;
+}
+#resetreq {
+    font-family: 'Quicksand', sans-serif;
+    height: 50px;
+}
+#register {
+    font-family: 'Quicksand', sans-serif;
+    height: 50px;
+}
